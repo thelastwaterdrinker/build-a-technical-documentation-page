@@ -1,0 +1,131 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<nav id = "navbar">
+  <header>Project Management Process</header>
+  <ul>
+    <li><a class = "nav-link" href = "#initiation">Initiation</a></li>
+    <li><a class = "nav-link" href = "#planning">Planning</a></li>
+     <li><a class = "nav-link" href = "#execution">Execution</a></li>
+      <li><a class = "nav-link" href = "#monitoring">Monitoring</a></li>
+       <li><a class = "nav-link" href = "#closure">Closure</a></li>
+    </ul>
+</nav>
+<main id = "main-doc">
+  <section class = "main-section" id = "initiation"><header>Initiation</header>
+  <p>
+First, you need to identify a business need, problem, or opportunity and brainstorm ways that your team can meet this need, solve this problem, or seize this opportunity. During this step, you figure out an objective for your project, determine whether the project is feasible, and identify the major deliverables for the project.</p>
+
+<p>Steps for the project initiation phase may include the following:</p>
+<ul>
+<li><b>Undertaking a feasibility study:</b> Identify the primary problem your project will solve and whether your project will deliver a solution to that problem</li>
+<li><b>Identifying scope:</b> Define the depth and breadth of the project</li>
+<li><b>Identifying deliverables:</b> Define the product or service to provide
+<b>Identifying project stakeholders:</b> Figure out whom the project affects and what their needs may be</li>
+<li><b>Developing a business case:</b> Use the above criteria to compare the potential costs and benefits for the project to determine if it moves forward</li>
+<li><b>Developing a statement of work:</b> Document the project’s objectives, scope, and deliverables that you have identified previously as a working agreement between the project owner and those working on the project</li></ul>
+<code>Initiation process ends</code>
+</p>
+ 
+  </section>
+  <section class = "main-section" id = "planning"><header>Planning</header>
+ <p>Once the project is approved to move forward based on your business case, statement of work, or project initiation document, you move into the planning phase.</p>
+
+<p>During this phase of the project management life cycle, you break down the larger project into smaller tasks, build your team, and prepare a schedule for the completion of assignments. Create smaller goals within the larger project, making sure each is achievable within the time frame. Smaller goals should have a high potential for success.
+  <code>Planning process</code>
+</p>
+<ul><li><b>Creating a project plan:</b> Identify the project timeline, including the phases of the project, the tasks to be performed, and possible constraints</li>
+<li><b>Creating workflow diagrams:</b> Visualize your processes using swimlanes to make sure team members clearly understand their role in a project</li>
+
+  <li><b>Estimating budget and creating a financial plan:</b> Use cost estimates to determine how much to spend on the project to get the maximum return on investment</li>
+<li><b>Gathering resources:</b> Build your functional team from internal and external talent pools while making sure everyone has the necessary tools (software, hardware, etc.) to complete their tasks</li>
+<li><b>Anticipating risks and potential quality roadblocks:</b> Identify issues that may cause your project to stall while planning to mitigate those risks and maintain the project’s quality and timeline</li>
+<li><b>Holding a project kickoff meeting:</b> Bring your team on board and outline the project so they can quickly get to work</li></ul>
+  </section>
+  <section class = "main-section" id = "execution"><header>Execution</header><p>You’ve received business approval, developed a plan, and built your team. Now it’s time to get to work. The execution phase turns your plan into action. The project manager’s job in this phase of the project management life cycle is to keep work on track, organize team members, manage timelines, and make sure the work is done according to the original plan.</p>
+  <p>Project execution means that you’re rolling up your sleeves and taking action on everything you outlined in your project plan. Put simply, you’re executing those strategies (how’s that for being literal?) to get the project across the finish line.</p>
+
+<p>You might also hear project execution referred to as project implementation. That’s another fancy name that means the same thing. <code>Execution process ends</code> </p></section>
+  <section class = "main-section" id = "monitoring"><header>Monitoring</header><p>Project management monitoring and controlling involves actively reviewing the status of your project as it proceeds, evaluating potential obstacles, and implementing necessary changes.</p>
+  <p>Monitoring and control keeps projects on track. The right controls can play a major part in completing projects on time. The data gathered also lets project managers make informed decisions. They can take advantage of opportunities, make changes and avoid crisis management issues.
+    <code>Monitoring process ends</code>
+    </p>
+  </section>
+  <section class = "main-section" id = "closure"><header>Closure</header>
+  <p>Once your team has completed work on a project, you enter the closure phase. In the closure phase, you provide final deliverables, release project resources, and determine the success of the project. Just because the major project work is over, that doesn’t mean the project manager’s job is done—there are still important things to do, including evaluating what did and did not work with the project.
+    <code>Closure process ends</code></p></section>
+ 
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0,22,22,0.4);
+}
+
+header {
+color: black;
+margin: 10px;
+text-align: center;
+font-size: 1.8em;
+font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+@media (max-width: 768px) {
+  background: gray;
+}
+
+** end of undefined **
+

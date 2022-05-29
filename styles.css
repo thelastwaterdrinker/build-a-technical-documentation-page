@@ -1,0 +1,44 @@
+#main {
+  max-width: 1280px;
+  max-height: 100%;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #dddddd;
+  border-radius: 5px;
+}
+#title {
+  text-align: center;
+}
+main > p {
+  text-align: center;
+}
+img-div {
+  width: auto;
+  height: auto;
+  max-width: 900px;
+  display: block;
+  text-align: center;
+  object-fit: fill;
+  margin: auto;
+}
+
+#image {
+  heigh: auto;
+  max-width: 100%;
+  margin: auto;
+}
+
+img {
+  display: block;
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#tribute-info > p {
+  text-align: center;
+  margin: 10px;
+  line-height: 30px;
+}
